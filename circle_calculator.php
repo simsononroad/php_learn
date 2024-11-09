@@ -6,7 +6,7 @@
     <title>This is a php-file</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="circle_calculator.php" method="post">
         <label for="">Radius</label>
         <input type="text" name="radius" id="">
         <br>
