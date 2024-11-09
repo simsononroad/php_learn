@@ -28,6 +28,7 @@ def new_time():
         print("Elmentve!")
 
 def open():
+    
     res = cur.execute("SELECT time FROM status;")
     ress = res.fetchall()
     for kiolv in ress:
@@ -37,14 +38,16 @@ def open():
     print("Megnyílt")
     webbrowser.open(url)
     
+    
 def main():
     wich = input("Előző megnyitása(e) || Új idő hozzáadása(u)")
     #while wich == 'e' or wich == 'u':
     if wich == 'e':
+        print("\nJelenleg ebben a mappában dolgozol: /opt/lampp/htdocs/website/")
         open()
+        
     if wich == 'u':
         new_time()
-    os.system("clear")
     main()
 
 if __name__ == "__main__":
