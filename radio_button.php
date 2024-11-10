@@ -6,7 +6,7 @@
     <title>This is a php-file</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="radio_button.php" method="post">
         <input type="radio" value="visa" name="credit_card" id="">Visa<br>
         <input type="radio" value="master_card" name="credit_card" id="">master card<br>
         <input type="radio" value="k&h" name="credit_card" id="">K&H<br>
