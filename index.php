@@ -13,6 +13,11 @@
 
 
 <?php
-
+    $usrname = "";
+    if(empty($usrname)){
+        echo"A változó üres!";
+    }else{
+        echo"A változó nincs beállítva!";
+    }
 ?>
 
