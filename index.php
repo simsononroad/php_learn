@@ -7,20 +7,12 @@
 </head>
 <body>
     <form action="index.php" method="post">
-        <label for="">Meddig számoljon?</label>
-        <input type="text" placeholder="int" name="counter" id="">
-        <br>
-        <input type="submit" value="start" name="" id="">
     </form>
 </body>
 </html>
 
 
 <?php
-    $count = $_POST["counter"];
-    $count++;
-    for($i = 1; $i < $count; $i++){
-        echo"{$i}<br>";
-    }
+
 ?>
 

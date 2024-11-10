@@ -6,7 +6,7 @@
     <title>This is a php-file</title>
 </head>
 <body>
-    <form action="forloops.php" method="post">
+    <form action="array.php" method="post">
         <label for="">Meddig számoljon?</label>
         <input type="text" placeholder="int" name="counter" id="">
         <br>
@@ -17,10 +17,16 @@
 
 
 <?php
-    $count = $_POST["counter"];
-    $count++;
-    for($i = 1; $i < $count; $i++){
-        echo"{$i};  ";
+    $foods = array("Apple", "Orange", "Bannana", "Coconut");
+    //$foods[0] = "Pineapple";
+    //array_push($foods, "pineapple", "kiwi");
+    //array_pop($foods);
+    //array_shift($foods)
+    //$rfoods = array_reverse($foods);
+
+
+    foreach($foods as $food){
+        echo"{$food} <br>";
     }
 ?>
 
