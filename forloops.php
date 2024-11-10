@@ -6,7 +6,7 @@
     <title>This is a php-file</title>
 </head>
 <body>
-    <form action="index.php" method="post">
+    <form action="forloops.php" method="post">
         <label for="">Meddig számoljon?</label>
         <input type="text" placeholder="int" name="counter" id="">
         <br>
